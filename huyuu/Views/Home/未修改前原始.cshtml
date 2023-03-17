@@ -1,0 +1,546 @@
+﻿@{
+    Layout = null;
+    ViewData["Title"] = "Home Page";
+}
+
+
+<!doctype html>
+<html lang="zh-Hant-TW">
+
+<head>
+    <meta charset="utf-8">
+    <title>惠宇一清庭│北屯機捷新案│3-4房．0店面│(04)2435-0677</title>
+    <meta name="description" content="台中預售屋新推案-惠宇一清庭與好市多為鄰，近北屯捷運總站，2站接軌「雙鐵共站」松竹車站，近74 號快速道路，連接一高、二高、四高、高鐵站，交通便利完整">
+    <meta name="Keywords" content="台中預售屋新推案-惠宇一清庭與好市多為鄰，近北屯捷運總站，2站接軌「雙鐵共站」松竹車站，近74 號快速道路，連接一高、二高、四高、高鐵站，交通便利完整">
+    <meta name="author" content="惠宇建設,沐石文化網路房地產數位行銷www.mo-ss.com">
+    <meta property="og:title" content="惠宇一清庭 惠宇建設新案" />
+    <meta property="og:description" content="台中預售屋新推案-惠宇一清庭與好市多為鄰，近北屯捷運總站，2站接軌「雙鐵共站」松竹車站，近74 號快速道路，連接一高、二高、四高、高鐵站，交通便利完整" />
+    <meta property="og:image" content="huyuu/images/fb.jpg" />
+    <meta name="spiders" content="all">
+    <meta name="webcrawlers" content="all">
+    <meta name="revisit-after" content="20 days">
+    <meta name="robots" content="all">
+    <link rel="shortcut icon" href="huyuu/images/favicon.ico">
+    <link rel="apple-touch-icon" sizes="57x57" href="huyuu/images/favicon-57.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="huyuu/images/favicon-72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="huyuu/images/favicon-114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="huyuu/images/favicon-120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="huyuu/images/favicon-144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="huyuu/images/favicon-152.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="x-ua-compatible" content="IE=edge,chrome=1">
+    <link rel="stylesheet" href="huyuu/scripts/fullpage/fullpage.min.css">
+    <link rel="stylesheet" href="huyuu/scripts/fullpage/fullpage.css">
+    <link rel="stylesheet" href="huyuu/scripts/owl.carousel2/owl.carousel.min.css">
+    <link rel="stylesheet" href="huyuu/css/style.css?date=0929">
+    <script src="huyuu/scripts/jquery-3.3.1.min.js"></script>
+    <script src="huyuu/scripts/wow/wow.min.js"></script>
+    <script src="huyuu/scripts/fullpage/fullpage.min.js"></script>
+    <script src="huyuu/scripts/jquery.slimscroll.min.js"></script>
+    <script src="huyuu/scripts/fullpage/scrolloverflow.min.js"></script>
+    <script src="huyuu/scripts/custom.js"></script>
+    <script src="https://www.youtube.com/iframe_api"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+
+            $('.load-box').addClass('active');
+            //matchHeight
+            // $('.grid-item').matchHeight();
+
+            //fullpage
+            $('#fullpage').fullpage({
+                //anchors: ['section-header', 'section1', 'section2'],
+                scrollingSpeed: 800,
+                navigation: false,
+                scrollOverflow: false,
+                scrollBar: true,
+                slidesNavigation: true,
+                navigation: true,
+                navigationPosition: 'left',
+                responsiveWidth: 1100,
+                responsiveHeight: 650,
+                scrollHorizontally: true,
+                licenseKey: $('#pagekey').val(),
+                onLeave: function (origin, destination, direction) {
+                    var $isAnimated = $('.section').eq(destination.index);
+                    if (destination.index == 0) {
+                        $('#header').removeClass('header-up');
+                        // console.log(destination.index);
+                    } else {
+                        $('#header').addClass('header-up');
+                        // console.log(destination.index);
+                    }
+                }
+            });
+
+            $('#pagekey').remove();
+
+
+            //owl
+            $('.owl-carousel').owlCarousel({
+                smartSpeed: 1000,
+                autoplay: true,
+                loop: true,
+                nav: true,
+                navText: ['<i class="arrow_carrot-left"></i>', '<i class="arrow_carrot-right"></i>'],
+                responsive: {
+                    0: {
+                        items: 1
+                    },
+                    /*650: {
+                        items: 2
+                    }*/
+                }
+            });
+        });
+    </script>
+
+    <!--[if lt IE 9]>
+    <script src="huyuu/scripts/respond.min.js"></script>
+    <script src="huyuu/scripts/html5.js"></script>
+    <![endif]-->
+
+    <meta name="facebook-domain-verification" content="s7k7gy8dzj3ff362366a4sxrchkw3u" />
+
+    <!-- Google Tag Manager -->
+    <script>
+        (function (w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-KJR36Q9');
+    </script>
+    <!-- End Google Tag Manager -->
+    <!-- Global site tag (gtag.js) - Google Ads: 815347962 -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-815347962"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'AW-815347962');
+    </script>
+
+    <!-- Meta Pixel Code -->
+    <script>
+        ! function (f, b, e, v, n, t, s) {
+            if (f.fbq) return;
+            n = f.fbq = function () {
+                n.callMethod ?
+                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n;
+            n.push = n;
+            n.loaded = !0;
+            n.version = '2.0';
+            n.queue = [];
+            t = b.createElement(e);
+            t.async = !0;
+            t.src = v;
+            s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '500733252009396');
+        fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=500733252009396&ev=PageView&noscript=1" /></noscript>
+    <!-- End Meta Pixel Code -->
+
+
+</head>
+
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="" https: //www.googletagmanager.com/ns.html?id =GTM-KJR36Q9"" height="" 0"" width="" 0"" style="" display:none;visibility:hidden""></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+
+    <div class="load-box"></div>
+    <header id="header" class="button-icon">
+        <a href="tel:0424350677" title="惠宇一清庭來電預約"><i class="icon_phone"></i><small>來電<br>預約</small></a>
+        <a href="https://www.google.com/maps/place/406台中市北屯區松竹路一段1331號/" target="_blank" title="惠宇一清庭路線導航"><i class="icon_pin"></i><small>路線<br>導航</small></a>
+        <a href="https://www.facebook.com/huiyugood/" target="_blank" title="惠宇一清庭臉書粉絲頁"><i class="social_facebook"></i><small>臉書<br>粉絲</small></a>
+        <a href="http://www.huyuu.com.tw/" target="_blank" title="惠宇建設官網"><i class="icon_com"><img src="huyuu/images/huiyu.png" alt=""></i><small>惠宇<br>官網</small></a>
+    </header>
+    <div id="fullpage" class="wrapper">
+        <section id="section1" class="section">
+            <div class="logo"><img src="huyuu/images/logo.png"></div>
+            <div class="content delay-2">
+                <img src="huyuu/images/index-text.png">
+            </div>
+            <div class="bg-img"></div>
+        </section>
+
+        <section id="section2" class="section">
+            <div class="img-slide lightBox-img owl-carousel map">
+                <a href="huyuu/images/map.jpg" data-size="2220x1332" title="生活環境空拍圖">
+                    <figure class="img-box">
+                        <img class="pc-hide" src="huyuu/images/mobile/map-click.jpg" alt="生活環境空拍圖" />
+                        <img class="mobile-hide" src="huyuu/images/map.jpg" alt="生活環境空拍圖" />
+                        <div class="icon-box">
+                            <span><i aria-hidden="true"></i></span>
+                        </div>
+                        <figcaption class="img-caption">生活環境空拍圖</figcaption>
+                    </figure>
+                </a>
+            </div>
+            <div class="text-box delay-1 pc-hide">
+                <img src="huyuu/images/mobile/map-text.png" alt="">
+                <div class="bg-img"></div>
+            </div>
+        </section>
+
+        <section id="section3" class="section">
+            <div class="pc-hide">
+                <div class="img-slide lightBox-img owl-carousel environment-img">
+                    <a href="huyuu/images/mobile/environment-img4.jpg" data-size="1066x858" title="水曲生態公園">
+                        <figure class="img-box">
+                            <img src="huyuu/images/mobile/environment-img4.jpg" alt="水曲生態公園" />
+                            <div class="icon-box">
+                                <span><i aria-hidden="true"></i></span>
+                            </div>
+                            <figcaption class="img-caption">水曲生態公園</figcaption>
+                        </figure>
+                    </a>
+                </div>
+                <div class="text-box delay-1">
+                    <img src="huyuu/images/mobile/environment-text.png" alt="">
+                    <div class="img-slide lightBox-img owl-carousel environment-img2">
+                        <a href="huyuu/images/environment-img1.jpg" data-size="1200x800" title="捷運一日生活圈">
+                            <figure class="img-box">
+                                <img src="huyuu/images/mobile/environment-click1.jpg" alt="捷運一日生活圈" />
+                                <div class="icon-box">
+                                    <span><i aria-hidden="true"></i></span>
+                                </div>
+                                <figcaption class="img-caption">捷運一日生活圈</figcaption>
+                            </figure>
+                        </a>
+                        <a href="huyuu/images/environment-img2.jpg" data-size="1200x800" title="好市多美式賣場">
+                            <figure class="img-box">
+                                <img src="huyuu/images/mobile/environment-click2.jpg" alt="好市多美式賣場" />
+                                <div class="icon-box">
+                                    <span><i aria-hidden="true"></i></span>
+                                </div>
+                                <figcaption class="img-caption">好市多美式賣場</figcaption>
+                            </figure>
+                        </a>
+                        <a href="huyuu/images/environment-img3.jpg" data-size="1200x800" title="國道四銜接74">
+                            <figure class="img-box">
+                                <img src="huyuu/images/mobile/environment-click3.jpg" alt="國道四銜接74" />
+                                <div class="icon-box">
+                                    <span><i aria-hidden="true"></i></span>
+                                </div>
+                                <figcaption class="img-caption">國道四銜接74</figcaption>
+                            </figure>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="grid-large mobile-hide">
+                <div class="grid-4-12 left"><img class="text-img1 delay-1" src="huyuu/images/environment-text1.png" alt="舉步之間"><img class="text-img2 delay-2" src="huyuu/images/environment-text2.png" alt="走入繁華"></div>
+                <div class="grid-8-12 right">
+                    <div class="grid-7-12 con">
+                        <img class="text-img3 delay-2" src="huyuu/images/environment-text3.png" alt="舉步之間">
+                        <div class="img-slide lightBox-img owl-carousel environment-img2">
+                            <a href="huyuu/images/environment-img4.jpg" data-size="1200x800" title="水曲生態公園">
+                                <figure class="img-box">
+                                    <img src="huyuu/images/mobile/environment-click4.jpg" alt="水曲生態公園" />
+                                    <div class="icon-box">
+                                        <span><i aria-hidden="true"></i></span>
+                                    </div>
+                                    <figcaption class="img-caption">水曲生態公園</figcaption>
+                                </figure>
+                            </a>
+                            <a href="huyuu/images/environment-img1.jpg" data-size="1200x800" title="捷運一日生活圈">
+                                <figure class="img-box">
+                                    <img src="huyuu/images/mobile/environment-click1.jpg" alt="捷運一日生活圈" />
+                                    <div class="icon-box">
+                                        <span><i aria-hidden="true"></i></span>
+                                    </div>
+                                    <figcaption class="img-caption">捷運一日生活圈</figcaption>
+                                </figure>
+                            </a>
+                            <a href="huyuu/images/environment-img2.jpg" data-size="1200x800" title="好市多美式賣場">
+                                <figure class="img-box">
+                                    <img src="huyuu/images/mobile/environment-click2.jpg" alt="好市多美式賣場" />
+                                    <div class="icon-box">
+                                        <span><i aria-hidden="true"></i></span>
+                                    </div>
+                                    <figcaption class="img-caption">好市多美式賣場</figcaption>
+                                </figure>
+                            </a>
+                            <a href="huyuu/images/environment-img3.jpg" data-size="1200x800" title="國道四銜接74">
+                                <figure class="img-box">
+                                    <img src="huyuu/images/mobile/environment-click3.jpg" alt="國道四銜接74" />
+                                    <div class="icon-box">
+                                        <span><i aria-hidden="true"></i></span>
+                                    </div>
+                                    <figcaption class="img-caption">國道四銜接74</figcaption>
+                                </figure>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bg-img"></div>
+        </section>
+
+        <section id="section4" class="section">
+            <div class="pc-hide">
+                <figure class="img-box">
+                    <img src="huyuu/images/mobile/performance-img1-1.jpg" alt="惠宇業績實景" />
+                    <figcaption class="img-caption">惠宇業績實景</figcaption>
+                </figure>
+                <div class="text-box delay-1">
+                    <img src="huyuu/images/mobile/performance-text1.png" alt="">
+                    <div class="bg-img"></div>
+                </div>
+                <figure class="img-box">
+                    <img src="huyuu/images/mobile/performance-img1-2.jpg" alt="惠宇業績實景" />
+                    <figcaption class="img-caption">惠宇業績實景</figcaption>
+                </figure>
+            </div>
+            <div class="grid-full mobile-hide">
+                <div class="text-box"><img class="text-img1" src="huyuu/images/performance-text1-1.png" alt="庭．養身"><img class="text-img2" src="huyuu/images/performance-text1-2.png" alt=""></div>
+                <figcaption class="img-caption">惠宇業績實景</figcaption>
+            </div>
+        </section>
+
+        <section id="section5" class="section">
+            <div class="pc-hide">
+                <figure class="img-box">
+                    <img src="huyuu/images/mobile/performance-img2-1.jpg" alt="惠宇業績實景" />
+                    <figcaption class="img-caption">惠宇業績實景</figcaption>
+                </figure>
+                <div class="text-box delay-1">
+                    <img src="huyuu/images/mobile/performance-text2.png" alt="">
+                    <div class="bg-img"></div>
+                </div>
+            </div>
+            <div class="grid-full mobile-hide">
+                <figcaption class="img-caption">惠宇業績實景</figcaption>
+            </div>
+        </section>
+
+        <section id="section6" class="section">
+            <div class="pc-hide">
+                <figure class="img-box">
+                    <img src="huyuu/images/mobile/performance-img3-1.jpg" alt="惠宇業績實景" />
+                    <figcaption class="img-caption">惠宇業績實景</figcaption>
+                </figure>
+                <div class="text-box delay-1">
+                    <img src="huyuu/images/mobile/performance-text3.png" alt="">
+                    <div class="bg-img"></div>
+                </div>
+                <figure class="img-box">
+                    <img src="huyuu/images/mobile/performance-img3-2.jpg" alt="惠宇業績實景" />
+                    <figcaption class="img-caption">惠宇業績實景</figcaption>
+                </figure>
+            </div>
+            <div class="grid-full mobile-hide">
+                <div class="text-box"><img class="text-img1" src="huyuu/images/performance-text2-1.png" alt="清．養心"><img class="text-img2" src="huyuu/images/performance-text2-2.png" alt=""></div>
+                <figcaption class="img-caption">惠宇業績實景</figcaption>
+            </div>
+        </section>
+
+        <section id="section7" class="section grid-full mobile-hide">
+            <figcaption class="img-caption">惠宇業績實景</figcaption>
+        </section>
+
+        <section id="info" class="section grid-large">
+            <div class="grid-6-12">
+                <div class="infro-box dalay-1">
+                    <a class="infro" href="tel:0424350677">
+                        <img class="notice" src="huyuu/images/mobile/notice.png" alt="首波預約 敬請把握">
+                        <img src="huyuu/images/infro.png" alt="">
+                    </a>
+                    <a href="https://www.google.com/maps/place/406台中市北屯區松竹路一段1331號/" target="_blank" title="惠宇一清庭路線導航"><img class="infro-map" src="huyuu/images/infro-map.jpg" alt="惠宇一清庭"></a>
+                </div>
+            </div>
+            <div id="form-top" class="form grid-6-12 dalay-2">
+                <h7>CONTACT</h7>
+                <div class="form-box">
+
+                    <form name="" id="" class="clearfix animated-box delay-1">
+                        <div class="input-row">
+                            <label for="name"><small>*</small>姓&nbsp;&nbsp;名</label>
+                            <input name="name" type="text" id="name" required="required">
+                        </div>
+                        <!-- <div class="select-row">
+                            <label for="gender"><small></small>稱&nbsp;&nbsp;謂</label>
+                            <select name="entry.689706247">
+                                <option value="">請選擇</option>
+                                <option value="先生">先生</option>
+                                <option value="小姐">小姐</option>
+                            </select>
+                        </div> -->
+                        <div class="input-row">
+                            <label for="tel"><small>*</small>聯絡電話</label>
+                            <input name="tel" id="tel" type="text" maxlength="20" required="required" pattern="[0-9]{4}[0-9]{6}">
+                        </div>
+                        <div class="input-row">
+                            <label for="add"><small>*</small>居住區域</label>
+                            <input name="add" id="add" type="text" maxlength="50" required="required">
+                        </div>
+                        <div class="input-row">
+                            <label for="lineid"><small>&nbsp;</small>Line&nbsp;ID</label>
+                            <input name="lineid" id="lineid" type="text" maxlength="50" required="required">
+                        </div>
+                        <div class="input-row">
+                            <label for="msg"><small>&nbsp;</small>留&nbsp;&nbsp;言</label>
+                            <textarea name="msg" id="msg"></textarea>
+                        </div>
+                        <div class="input-row">
+                            <div class="small-text">
+                                本案實際內容以現場公布為準，您所登錄的個人資料將作為以下用途
+                                <ul class="small-text-con">
+                                    <li>1. 本網站所載之相關事項通知</li>
+                                    <li>2. 客戶管理與服務</li>
+                                    <li>3. 本公司行銷業務之推廣</li>
+                                </ul>
+                                <div class="right_text"><input id="check" type="checkbox" name="private" value="confirm" style="width:15px; height:15px;" required="">點擊送出資料即表示您同意<a href="private.pdf" target="_blank">個資保護聲明</a></div>
+                            </div>
+                        </div>
+
+                        <div>
+                            <!-- <a href="javascript:;" id="submit">送出</a> -->
+                            <button id="submit" class="submit_btn" type="button">送出</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </div>
+    <!--[if lt IE 8]>
+    <div id="ie" class="ie">
+        <a href="#" onclick="this.parentNode.style.display = 'none'"><div class="lightbox-bg"></div></a>
+        <div class="ie-content"><a href="#" class="ie-close" title="選單" onclick="this.parentNode.parentNode.style.display = 'none'">x</a>
+            <h1>瀏覽器版本太舊</h1>
+            <p>對不起，由於您目前使用的瀏覽器版本太舊，本網站已不支援。我們誠摯的建議您立即更新瀏覽器，享受更安全流暢的上網體驗。</p>
+            <p>您可以考慮以下建議方式擇一進行： <br/>
+                <a href="https://windows.microsoft.com/zh-tw/internet-explorer/download-ie" title="更新 Internet Explorer" target="_blank">更新 Internet Explorer</a> <br/>
+                <a href="https://www.google.com/intl/zh-TW/chrome/" title="下載 Google Chrome" target="_blank">下載 Google Chrome</a><br/>
+                <a href="https://www.mozilla.org/zh-TW/firefox/new/" title="下載 Mozilla Firefox" target="_blank">下載 Mozilla Firefox</a> </p>
+        </div>
+    </div>
+    <![endif]-->
+
+    <input id="pagekey" type="hidden" value="" />
+    <script src="huyuu/scripts/jquery.matchHeight-min.js"></script>
+    <!-- <script src="huyuu/scripts/GF-mail.js"></script> -->
+
+    <script>
+        $(function () {
+            $('#submit').on('click', function () {
+                // 姓名
+                var name = $('#name').val() || '未填寫';
+                // 電話
+                var tel = $('#tel').val() || '未填寫';
+
+                // 居住區域
+                var add = $('#add').val() || '未填寫';
+                // Line ID
+                var lineid = $('#lineid').val() || '未填寫';
+                // 留言
+                var msg = $('#msg').val() || '未填寫';
+                // 確認框
+                var check = $("input[name='private']:checked").length; //判斷有多少個方框被勾選
+
+                if (name == '未填寫') {
+                    $('#name').focus();
+                    alert("請填寫 聯絡姓名");
+                    return false;
+                }
+                if (tel == '未填寫') {
+                    $('#tel').focus();
+                    alert("請填寫 聯絡電話");
+                    return false;
+                }
+                if (add == '未填寫') {
+                    $('#add').focus();
+                    alert("請填寫 居住區域");
+                    return false;
+                }
+                if (check == 0) {
+                    alert("請勾選同意「個資保護聲明」內容");
+                    return false; //不要提交表單
+                }
+                // post
+                var data = {
+                    'entry.398380283': name,
+                    'entry.260214422': tel,
+                    'entry.1203507625': add,
+                    'entry.911812866': lineid,
+                    'entry.552803622': msg
+                };
+                $.ajax({
+                    type: 'POST',
+                    url: 'https://docs.google.com/forms/d/e/1FAIpQLSd2QJyVcfPemzM91Ds7ZhaaViL9lcr1ANzqVRZz_DEM9D-Rmw/formResponse',
+                    data: data,
+                    contentType: 'application/json',
+                    dataType: 'jsonp',
+                    complete: function () {
+                        alert('已經成功送出表單，我們會盡快請專員與您聯繫，感謝您的填寫！');
+                        location.href = "index.html";
+                    }
+                });
+            });
+        });
+    </script>
+    <!-- Root element of PhotoSwipe. Must have class pswp. -->
+    <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="pswp__bg"></div>
+        <div class="pswp__scroll-wrap">
+            <div class="pswp__container">
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
+            </div>
+            <div class="pswp__ui pswp__ui--hidden">
+                <div class="pswp__top-bar">
+                    <div class="pswp__counter"></div>
+                    <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+                    <button class="pswp__button pswp__button--share" title="Share"></button>
+                    <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+                    <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+                    <div class="pswp__preloader">
+                        <div class="pswp__preloader__icn">
+                            <div class="pswp__preloader__cut">
+                                <div class="pswp__preloader__donut"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                    <div class="pswp__share-tooltip"></div>
+                </div>
+                <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"> </button>
+                <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)"> </button>
+                <div class="pswp__caption">
+                    <div class="pswp__caption__center"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <link rel="stylesheet" href="huyuu/scripts/photoswipe/photoswipe.css">
+    <link rel="stylesheet" href="huyuu/scripts/photoswipe/default-skin/default-skin.css">
+    <script src="huyuu/scripts/photoswipe/photoswipe.min.js"></script>
+    <script src="huyuu/scripts/photoswipe/photoswipe-ui-default.min.js"></script>
+    <script src="huyuu/scripts/photoswipe/photoswipe-custom.js"></script>
+    <script src="huyuu/scripts/owl.carousel2/owl.carousel.min.js"></script>
+</body>
+
+</html>
